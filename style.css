@@ -1,0 +1,150 @@
+body
+{
+  margin: 0px;
+  padding: 0px;
+  background-color: #e8e9e9;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navi
+{
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  background: #1B1B1B;
+  box-shadow: 0 0.2em 0.2em 0 rgba(0,0,0,0.4);
+  padding: 35px;
+  z-index: 1;
+
+}
+
+.navi li
+{
+  display: inline-block;
+  position: relative;
+}
+.navi li a
+{
+  text-decoration: none;
+  padding-right: 23px;
+  color: #fff;
+  font-family: 'myFirstFont';
+  letter-spacing: 4px;
+}
+
+.logo
+{
+  position: absolute;
+  top: 20px;
+  right: 90px;
+  color: #fff;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #fff;
+  border-radius: 100px;
+}
+.logo h2
+{
+  position: absolute;
+  right: 11px;
+  top: -8px;
+}
+.container img
+{
+  border-radius: 200%;
+  border: 1px solid #fff;
+  box-shadow: 0 0.4em 0 0 rgba(0,0,0,0.4);
+  width: 200px;
+  transition: 2s ease;
+}
+
+.container img:hover
+{
+  transform: scale(1.2) rotate(6deg);
+  transition: 1s ease;
+}
+
+
+
+.container
+{
+  background: #1B1B1B;
+  max-width: 400px;
+  border-radius: 20px;
+  box-shadow: 0.5em 0.4em 0.2em 0 rgba(0,0,0,0.4);
+  margin: 170px auto;
+  text-align: center;
+  padding: 45px;
+}
+
+.currentProject
+{
+  max-width: 800px;
+}
+.currentProject h1
+{
+  color: #fff;
+  font-family: 'myFirstFont';
+  margin: 0;
+}
+.currentProject h1 small
+{
+  margin: 0;
+  font-size: 14px;
+}
+.currentProject p
+{
+  color: #FFF;
+  opacity: 0.7;
+  letter-spacing: 2px;
+  font-size: 14px;
+  font-family: 'myFirstFont';
+}
+.currentProject h2
+{
+  color: lime;
+}
+.currentProject a
+{
+  color: yellow;
+}
+.imgContainer img
+{
+  height: 800px;
+  width:  400px;
+
+  border-radius: 0px;
+}
+.userName
+{
+  color: #fff;
+  font-family: 'NameFont';
+}
+.profileLabel
+{
+  letter-spacing: 4px;
+  color: #ededed;
+  margin-bottom: 23px;
+}
+.userInfo
+{
+  color: #fff;
+  opacity: 0.3;
+  letter-spacing: 0.5px;
+  font-family: 'myFirstFont';
+}
+hr
+{
+border-radius: 100%;
+opacity: 0.3;
+box-shadow: 0 0.4em 0 0 rgba(0,0,0,0.4);
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(Roboto/Roboto-Thin.ttf);
+}
+@font-face {
+    font-family: NameFont;
+    src: url(Roboto/Roboto-Bold.ttf);
+}
